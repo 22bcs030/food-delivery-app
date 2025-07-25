@@ -1,0 +1,6 @@
+{
+  "node": true,
+  "buildCommand": "chmod +x ./build.sh && ./build.sh",
+  "startCommand": "cd backend && npm start",
+  "requiredFiles": ["package.json", "backend/package.json", "build.sh"]
+}
