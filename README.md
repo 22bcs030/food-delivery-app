@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Live Demo](#live-demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
@@ -29,6 +30,13 @@ This is a full-stack food ordering web application built using the MERN stack (M
 - **Database:** MongoDB
 - **Authentication:** JWT (JSON Web Tokens)
 - **Styling:** CSS
+
+## Live Demo
+The application is deployed and accessible at the following URLs:
+
+- **Customer App:** [https://food-delivery-frontend-nvmv.onrender.com](https://food-delivery-frontend-nvmv.onrender.com)
+- **Admin Dashboard:** [https://food-delivery-admin-4ok7.onrender.com](https://food-delivery-admin-4ok7.onrender.com)
+- **Backend API:** [https://food-delivery-backend-0wx3.onrender.com](https://food-delivery-backend-0wx3.onrender.com)
 
 ## Installation
 ### Prerequisites
@@ -108,12 +116,22 @@ npm run dev
 ```
 
 ## Usage
-Access the customer-facing app at http://localhost:5173.
-Access the admin app at http://localhost:5174.
-Register as a new user or log in with existing credentials.
-Browse the menu, add items to the cart, and place an order.
-Pay using dummy visa card
-Use the admin panel to manage orders, menu items.
+
+### Local Development
+- Access the customer-facing app at http://localhost:5173
+- Access the admin app at http://localhost:5174
+- Access the API at http://localhost:4000
+
+### Production Deployment
+- Customer App: https://food-delivery-frontend-nvmv.onrender.com
+- Admin Dashboard: https://food-delivery-admin-4ok7.onrender.com
+- Backend API: https://food-delivery-backend-0wx3.onrender.com
+
+### Instructions
+1. Register as a new user or log in with existing credentials
+2. Browse the menu, add items to the cart, and place an order
+3. Pay using Stripe test cards (e.g., 4242 4242 4242 4242)
+4. Use the admin panel to manage orders and menu items
 
 ## Screenshots
 ![1](https://github.com/DulanjaliSenarathna/mern-food-delivery-app/assets/59603716/b3d604f0-ae0e-4e29-9b95-51f6327c3952)
